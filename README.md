@@ -15,3 +15,5 @@ This is my first official coding project I'm publishing here on GitHub. Unfornat
 All in all I really like where this project is going and didn't want to throw away all this hard invested time and frustration by running this project only on my hardware. 
 
 Let me know what you think about this project. I'm open for new ideas and changes. I have a whole Notion site filled with bug fixes and feature ideas, so there will come a lot of updates in the future.
+
+You can message me directly on lenn.art.works @gmail.com or my Instagram: Lenn.Art.Works
