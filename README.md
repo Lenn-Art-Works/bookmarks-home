@@ -7,6 +7,7 @@ Opening the index.html will lead you through every important steps for creating 
 The extension is coded for Chromium so it will run in a lot of native browsers like Chrome, Opera, Arc, Edge...
 
 
+
 # Disclaimer
 
 This is my first official coding project I'm publishing here on GitHub. Unfornately the installation is a bit harsh for now (I hope I can fix this in the future). Also the code is pretty much spagetti as I learned everything on my own without learning any coding and structure standards. I used a lot of ChatGPT's help so it could be hard to create your own projects out of this.
