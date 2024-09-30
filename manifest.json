@@ -1,0 +1,64 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Home 3",
+    "version": "1.0",
+    "description": "Extracts and saves HTML content from a webpage when a specific button is clicked.",
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "scripting",
+        "tabs",
+        "storage"
+    ],
+    "icons": {
+      "16": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-16x.png",
+      "48": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-48x.png",
+      "128": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-128x.png"
+    },
+    "background": {
+      "service_worker": "config/wizard-extension/we-background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "exclude_matches": ["https://chatgpt.com/*", "https://gemini.google.com/*"],
+        "js": ["config/libraries/jquery.js", "config/libraries/Sortable.min.js", "config/wizard-extension/we-content.js", "config/universal-js/universal-functions.js"]
+      },
+      {
+        "matches": ["https://chatgpt.com/*"],
+        "js": ["config/search-engines/storage-search/chatgpt-search.js"]
+      },
+      {
+        "matches": ["https://gemini.google.com/*"],
+        "js": ["config/search-engines/storage-search/gemini-search.js"]
+      }
+    ],
+    "action": {
+      "default_icon": {
+        "16": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-16x.png",
+        "48": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-48x.png",
+        "128": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-128x.png"
+      },
+      "theme_icons": [
+        {
+          "light": "config/on-page-res/graphics/logo/extension-icon/lightmode/extension-logo-add-16x.png",
+          "dark": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-16x.png",
+          "size": 16
+        },
+        {
+          "light": "config/on-page-res/graphics/logo/extension-icon/lightmode/extension-logo-add-48x.png",
+          "dark": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-48x.png",
+          "size": 48
+        },
+        {
+          "light": "config/on-page-res/graphics/logo/extension-icon/lightmode/extension-logo-add-48x.png",
+          "dark": "config/on-page-res/graphics/logo/extension-icon/darkmode/extension-logo-add-48x.png",
+          "size": 128
+        }
+      ],
+      "default_title": "Chrome Home 3",
+      "default_popup": "config/popup/popup.html"
+    }
+  }
+
+  

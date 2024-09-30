@@ -1,0 +1,48 @@
+/* .inria-sans-light 300 */
+@font-face {
+  font-family: "Inria Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url('Inria_Sans/InriaSans-Light.ttf') format('truetype');
+}
+  
+/* .inria-sans-light-italic 300 */
+@font-face {
+  font-family: "Inria Sans";
+  font-weight: 300;
+  font-style: italic;
+  src: url('Inria_Sans/InriaSans-LightItalic.ttf') format('truetype');
+}
+  
+/* .inria-sans-regular 400 */
+@font-face {
+  font-family: "Inria Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url('Inria_Sans/InriaSans-Regular.ttf') format('truetype');
+}
+
+/* .inria-sans-regular-italic 400 */
+@font-face {
+  font-family: "Inria Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url('Inria_Sans/InriaSans-Italic.ttf') format('truetype');
+}
+  
+/* .inria-sans-bold 700 */
+@font-face {
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url('Inria_Sans/InriaSans-Bold.ttf') format('truetype');
+}
+  
+/* .inria-sans-bold-italic 700 */
+@font-face {
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url('Inria_Sans/InriaSans-BoldItalic.ttf') format('truetype');
+}
+  
